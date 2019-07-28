@@ -8,7 +8,7 @@ def hello(array)
   end
 end
 
-
+binding.pry
 hello(["Tim", "Tom", "Jim"]) do |name|
   puts "Hi, #{name}"
 end
