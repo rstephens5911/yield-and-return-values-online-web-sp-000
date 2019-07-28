@@ -9,6 +9,6 @@ def hello(array)
 end
 
 
-hello(["Tim", "Tom", "Jim"]) do |name| 
+hello(["Tim", "Tom", "Jim"]) do |name|
   puts "Hi, #{name}"
 end
