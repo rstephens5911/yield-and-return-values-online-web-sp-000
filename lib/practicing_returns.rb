@@ -10,5 +10,5 @@ end
 
 binding.pry
 hello(["Tim", "Tom", "Jim"]) do |name|
-  puts "Hi, #{name}"
+  "Hi, #{name}"
 end
